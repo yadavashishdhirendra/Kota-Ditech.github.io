@@ -1297,8 +1297,7 @@ footer .se:hover {
         width: 400px;
     }
     .Title105 {
-        width: 100%;
-        margin: auto;
+       margin-right: 5rem;
     }
     #Dat6 {
         flex-direction: column;
