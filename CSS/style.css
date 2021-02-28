@@ -1,0 +1,1311 @@
+html, body {
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    /* margin-bottom: 100rem; */
+}
+
+/* Menu Icon==> */
+
+.Toggle-Icon {
+    color: rgb(135, 135, 135) !important;
+    background-color: white !important;
+    border: none !important;
+    font-size: 30px !important;
+}
+
+.Logo_Menu {
+    background-color: #ffffff;
+    margin: 0em 1em;
+    transition: all 0.3s ease-in-out;
+}
+
+/* On Hover ZOOM Effect In Menu Icon==> */
+
+.Ani:hover {
+    transform: scale(1.3);
+}
+
+.Ani:active {}
+
+/* Navabar Logo */
+
+.Ani2:hover {
+    transform: scale(1.1);
+}
+
+/* Navbar Menu==> */
+
+.navbar-nav .nav-link {
+    font-size: 1.33rem !important;
+    transition: .6s ease;
+    font-weight: bolder;
+    color: rgb(135, 135, 135) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(247, 78, 161) !important;
+}
+
+#Pad {
+    padding: 3rem;
+    /* margin-bottom: -160px; */
+}
+
+/* Navabar Responsive BreakPoints */
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .navbar-nav .nav-link {
+        display: none !important;
+    }
+    #Pad {
+        padding: 0rem !important;
+    }
+    #Ims {
+        width: 45px !important;
+    }
+    .Ani {
+        margin-right: 12px;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .navbar-nav .nav-link {
+        display: none !important;
+    }
+    #Pad {
+        padding: 0rem !important;
+    }
+    #Ims {
+        width: 60px !important;
+    }
+}
+
+/* Section1 */
+
+/* Image Styling */
+
+#Ims2 {
+    width: 70%;
+    margin-left: 4rem;
+    height: 430px;
+}
+
+/* Text Styling */
+
+.Text_1 {
+    color: rgb(135, 135, 135);
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 4rem;
+    line-height: 1.15;
+    letter-spacing: -0.075rem;
+    max-width: 14ch;
+    font-weight: bolder;
+    transform: translate3d(0px, 70px, 0px) rotateX(0deg);
+    opacity: 1;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(135, 135, 135);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Button Styling */
+
+.Btn {
+    transform: translate3d(0px, 90px, 0px) rotateX(0deg);
+    background-color: transparent;
+    border: 0.1rem solid rgb(247, 78, 161);
+    padding: 1rem 2rem;
+    color: rgb(247, 78, 161);
+    font-size: 0.77rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-radius: 3rem;
+    text-align: center;
+    transition: 0.25s ease 0s;
+}
+
+.Btn:hover {
+    background-color: rgb(247, 78, 161);
+    color: white;
+}
+
+/* Image Responsive */
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #Data {
+        flex-direction: column;
+    }
+    #Ims2 {
+        width: 80%;
+        height: 45vh;
+        margin-left: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
+    .Text_1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: -2rem;
+        margin-left: 1rem;
+    }
+    .dot {
+        height: 8px;
+        width: 8px;
+        background-color: rgb(135, 135, 135);
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .Btns {
+        text-align: center;
+    }
+    .Btn {
+        margin-left: 0rem;
+    }
+}
+
+/* Logos Brands */
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .Logos_Brand {
+        display: none !important;
+    }
+}
+
+/* Section3 */
+
+/* Image Left */
+
+#Ims3 {
+    width: 85%;
+    margin-left: -15px;
+    background-size: cover;
+    height: 90%;
+}
+
+/* Text Right */
+
+.Text_Title {
+    color: rgb(247, 78, 161);
+    letter-spacing: 0.22rem;
+    font-weight: 700;
+    font-size: 0.80em;
+    transform: translate3d(0px, 165px, 0px) rotateX(0deg);
+    opacity: 1;
+}
+
+.Text_2 {
+    color: rgb(135, 135, 135);
+    font-size: 2.75rem;
+    transform: translate3d(0px, 165px, 0px) rotateX(0deg);
+    text-align: justify;
+    opacity: 1;
+    letter-spacing: -0.0088rem;
+    margin-left: 1.10rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.Text_3 {
+    color: rgb(135, 135, 135);
+    font-size: 0.93rem;
+    transform: translate3d(0px, 165px, 0px) rotateX(0deg);
+    text-align: justify;
+    opacity: 1;
+    line-height: 1.53;
+    margin-top: 1rem;
+    /* letter-spacing: -0.0088rem; */
+    margin-left: 1.10rem;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    font-weight: 500;
+}
+
+.Btn1 {
+    transform: translate3d(0px, 200px, 0px) rotateX(0deg);
+    background-color: transparent;
+    border: 0.1rem solid rgb(247, 78, 161);
+    padding: 1rem 2rem;
+    color: rgb(247, 78, 161);
+    font-size: 0.77rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-radius: 3rem;
+    text-align: center;
+    transition: 0.25s ease 0s;
+    margin-left: 1.10rem;
+}
+
+.Btn1:hover {
+    background-color: rgb(247, 78, 161);
+    color: white;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #Data1 {
+        flex-direction: column;
+    }
+    #Ims3 {
+        margin-top: 7rem;
+        width: 415px !important;
+        margin-left: -12px;
+    }
+    .Text_Title {
+        font-size: 0.80em;
+        transform: translate3d(0px, 30px, 0px) rotateX(0deg);
+        opacity: 1;
+        margin-left: 1rem;
+    }
+    .Text_2 {
+        letter-spacing: -0.076rem;
+        font-size: 1.66rem;
+        transform: translate3d(0px, 35px, 0px) rotateX(0deg);
+    }
+    .Text_3 {
+        letter-spacing: -0.075rem;
+        width: 28ch;
+        line-height: 25px;
+        font-weight: 500;
+        font-size: 1.12rem;
+        transform: translate3d(0px, 35px, 0px) rotateX(0deg);
+    }
+    .Btn1 {
+        transform: translate3d(0px, 50px, 0px) rotateX(0deg);
+        float: left;
+    }
+}
+
+/* Section3 */
+
+.Text_Title1 {
+    margin-left: 7rem;
+    color: rgb(247, 78, 161);
+    letter-spacing: 0.22rem;
+    font-weight: 700;
+    font-size: 0.80em;
+    transform: translate3d(0px, 165px, 0px) rotateX(0deg);
+    opacity: 1;
+}
+
+.Text_4 {
+    color: rgb(135, 135, 135);
+    font-size: 2.75rem;
+    transform: translate3d(0px, 165px, 0px) rotateX(0deg);
+    text-align: justify;
+    opacity: 1;
+    letter-spacing: -0.0088rem;
+    margin-left: 1.10rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+    margin-left: 9rem;
+}
+
+.Text_5 {
+    color: rgb(247, 78, 161);
+    cursor: pointer;
+    font-size: 1.17rem;
+    transform: translate3d(0px, 140px, 0px) rotateX(0deg);
+    text-align: justify;
+    opacity: 1;
+    line-height: 2.55rem;
+    margin-top: 3rem;
+    /* letter-spacing: -0.0088rem; */
+    margin-left: 1.10rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+    margin-left: 7rem;
+    transition: 0.25s ease 0s;
+}
+
+.Text_5 .Listing:hover {
+    color: rgb(135, 135, 135);
+}
+
+.Btn2 {
+    transform: translate3d(0px, 155px, 0px) rotateX(0deg);
+    background-color: transparent;
+    border: 0.1rem solid rgb(247, 78, 161);
+    padding: 1rem 2rem;
+    color: rgb(247, 78, 161);
+    font-size: 0.77rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-radius: 3rem;
+    text-align: center;
+    transition: 0.25s ease 0s;
+    margin-left: 8.65rem;
+}
+
+.Btn2:hover {
+    background-color: rgb(247, 78, 161);
+    color: white;
+}
+
+#Ims4 {
+    width: 100%;
+    margin-right: -15px;
+    background-size: cover;
+    height: 80%;
+}
+
+/* Section 3 */
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #Data2 {
+        flex-direction: column;
+    }
+    #Ims4 {
+        transform: translate3d(0px, -109%, 0px);
+        width: 415px;
+        margin-right: -55px;
+        margin-top: 185px;
+    }
+    .Text_Title1 {
+        transform: translate3d(0px, 630px, 0px) rotateX(0deg);
+        margin-left: 1rem;
+    }
+    .Text_5 {
+        transform: translate3d(0px, 600px, 0px) rotateX(0deg);
+        margin-left: -1rem;
+    }
+    .Text_4 {
+        transform: translate3d(0px, 635px, 0px) rotateX(0deg);
+        font-size: 1.76rem;
+        margin-left: 1rem;
+    }
+    .Btn2 {
+        transform: translate3d(0px, 600px, 0px) rotateX(0deg);
+        margin-left: -6rem;
+    }
+}
+
+/* Section 4 */
+
+/* Image Part */
+
+/* Text Right */
+
+.Text_Title6 {
+    color: rgb(247, 78, 161);
+    letter-spacing: 0.22rem;
+    font-weight: 700;
+    font-size: 0.80em;
+    transform: translate3d(0px, 100px, 0px) rotateX(0deg);
+    opacity: 1;
+}
+
+.Text_7 {
+    color: rgb(135, 135, 135);
+    font-size: 2.55rem;
+    transform: translate3d(0px, 100px, 0px) rotateX(0deg);
+    text-align: justify;
+    opacity: 1;
+    letter-spacing: -0.0088rem;
+    margin-left: 1.10rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+    width: 16ch;
+}
+
+.Text_8 {
+    color: rgb(135, 135, 135);
+    font-size: 0.93rem;
+    transform: translate3d(0px, 100px, 0px) rotateX(0deg);
+    text-align: justify;
+    opacity: 1;
+    line-height: 1.53;
+    margin-top: 1rem;
+    /* letter-spacing: -0.0088rem; */
+    margin-left: 1.10rem;
+    font-family: 'Poppins', sans-serif;
+    width: 54ch;
+    font-weight: 500;
+}
+
+.Btns7 {
+    transform: translate3d(0px, 110px, 0px) rotateX(0deg);
+    background-color: transparent;
+    border: 0.1rem solid rgb(247, 78, 161);
+    padding: 1rem 2rem;
+    color: rgb(247, 78, 161);
+    font-size: 0.77rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-radius: 3rem;
+    text-align: center;
+    transition: 0.25s ease 0s;
+    margin-left: 0.85rem;
+    cursor: pointer;
+}
+
+.Btns7:hover {
+    background-color: rgb(247, 78, 161) !important;
+    color: white;
+    cursor: pointer;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #Ims6 {
+        width: 80%;
+        margin-top: 3rem;
+    }
+    .Text_7 {
+        margin-left: 0rem;
+        font-size: 1.95rem;
+        margin-top: 2rem;
+        width: 15ch;
+    }
+    .Text_8 {
+        margin-left: 0rem;
+        width: 34ch;
+    }
+    .Infos1 {
+        width: 40ch !important;
+        /* margin-top: 3rem; */
+        margin-left: -1rem;
+    }
+    .Name {
+        width: 13ch;
+        font-size: 3rem;
+        margin-left: -1rem;
+    }
+}
+
+/* Section5 */
+
+/* Image Part */
+
+#Ims9 {
+    width: 93%;
+    height: 85%;
+    background-size: cover;
+    margin-top: 7rem;
+}
+
+#Ims10 {
+    width: 95%;
+    height: 70%;
+    background-size: cover;
+    margin-top: 12rem;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #Ims10 {
+        width: 345px;
+        margin-top: 4rem;
+        margin-left: -1rem;
+    }
+    .Infos2 {
+        width: 44ch !important;
+        margin-left: -1rem;
+    }
+}
+
+/* OverLay Effects ON Images */
+
+.overlay {
+    transition: all .6s linear;
+}
+
+.effect-image-1 {
+    position: relative;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    display: block;
+    width: 93%;
+    height: 89%;
+    margin-top: 7rem;
+    left: 0;
+    top: 0;
+    background: rgb(246 0 185 / 40%)
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .overlay {
+        background: none !important;
+    }
+}
+
+/*-- simple overlay css --*/
+
+.simple-overlay {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.effect-image-1:hover .simple-overlay {
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Second Image Adjusting width Height Overlay */
+
+.overlay1 {
+    position: absolute;
+    display: block;
+    width: 95%;
+    height: 79%;
+    margin-top: 12rem;
+    left: 0;
+    top: 0;
+    background: rgb(246 0 185 / 40%);
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .overlay1 {
+        background: none !important;
+    }
+}
+
+.overlay1 {
+    transition: all .6s linear;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #Data3 {
+        flex-direction: column;
+    }
+    #Ims9 {
+        width: 345px;
+        margin-top: 12rem;
+        margin-left: -1rem;
+        height: 485px;
+    }
+}
+
+/* Text Part */
+
+.Head1 {
+    color: rgb(247, 78, 161);
+    font-weight: 700;
+    font-size: 0.80rem;
+    cursor: pointer;
+    margin-bottom: -1rem;
+}
+
+.Name {
+    transition: 0.25s ease 0s;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.Name:hover {
+    color: rgb(247, 78, 161);
+}
+
+.Infos1 {
+    font-weight: 500;
+    width: 60ch;
+    font-size: 0.99rem;
+    cursor: pointer;
+}
+
+.Infos2 {
+    font-weight: 500;
+    width: 62ch;
+    font-size: 0.99rem;
+    cursor: pointer;
+}
+
+#Ims11 {
+    width: 94%;
+    height: 35rem;
+    background-size: cover;
+    margin-top: 8rem;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #Ims11 {
+        width: 345px;
+        height: 25rem;
+        margin-top: 1rem;
+        margin-left: -1rem;
+    }
+    .Head1 {
+        width: 50ch !important;
+    }
+}
+
+/* Second Image Adjusting width Height Overlay */
+
+.overlay2 {
+    position: absolute;
+    display: block;
+    width: 94%;
+    height: 35rem;
+    margin-top: 8rem;
+    left: 0;
+    top: 0;
+    background: rgb(246 0 185 / 40%);
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .overlay2 {
+        background: none !important;
+    }
+}
+
+.overlay2 {
+    transition: all .6s linear;
+}
+
+#Ims12 {
+    width: 95%;
+    height: 50rem;
+    background-size: cover;
+    margin-top: 0rem;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #Ims12 {
+        width: 345px;
+        height: 25rem;
+        margin-top: 1rem;
+        margin-left: -1rem;
+    }
+}
+
+/* Second Image Adjusting width Height Overlay */
+
+.overlay3 {
+    position: absolute;
+    display: block;
+    width: 95%;
+    height: 50rem;
+    margin-top: 0rem;
+    left: 0;
+    top: 0;
+    background: rgb(246 0 185 / 40%);
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .overlay3 {
+        background: none !important;
+    }
+}
+
+.overlay3 {
+    transition: all .6s linear;
+}
+
+#Ims13 {
+    width: 95%;
+    height: 50rem;
+    background-size: cover;
+    margin-top: 0rem;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #Ims13 {
+        width: 345px;
+        height: 25rem;
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+}
+
+/* Second Image Adjusting width Height Overlay */
+
+.overlay4 {
+    position: absolute;
+    display: block;
+    width: 95%;
+    height: 50rem;
+    margin-top: 0rem;
+    left: 0;
+    top: 0;
+    background: rgb(246 0 185 / 40%);
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .overlay4 {
+        background: none !important;
+    }
+}
+
+.overlay4 {
+    transition: all .6s linear;
+}
+
+#Ims14 {
+    width: 96%;
+    height: 30rem;
+    background-size: cover;
+    margin-top: 9rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #Ims14 {
+        width: 345px;
+        height: 25rem;
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+}
+
+/* Second Image Adjusting width Height Overlay */
+
+.overlay5 {
+    position: absolute;
+    display: block;
+    width: 96%;
+    height: 30rem;
+    margin-top: 9rem;
+    left: 0;
+    top: 0;
+    background: rgb(246 0 185 / 40%);
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .overlay5 {
+        background: none !important;
+    }
+}
+
+.overlay5 {
+    transition: all .6s linear;
+}
+
+#Ims15 {
+    width: 90%;
+    height: 30rem;
+    background-size: cover;
+    margin-top: 9rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #Ims15 {
+        width: 345px;
+        height: 22rem;
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+}
+
+/* Second Image Adjusting width Height Overlay */
+
+.overlay6 {
+    position: absolute;
+    display: block;
+    width: 90%;
+    height: 30rem;
+    margin-top: 9rem;
+    left: 0;
+    top: 0;
+    background: rgb(246 0 185 / 40%);
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .overlay6 {
+        background: none !important;
+    }
+}
+
+.overlay6 {
+    transition: all .6s linear;
+}
+
+#Ims16 {
+    width: 95%;
+    height: 50rem;
+    background-size: cover;
+    margin-top: -5rem;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #Ims16 {
+        width: 345px;
+        height: 25rem;
+        background-size: cover;
+        margin-top: 1rem;
+        margin-left: -1rem;
+    }
+}
+
+/* Second Image Adjusting width Height Overlay */
+
+.overlay7 {
+    position: absolute;
+    display: block;
+    width: 95%;
+    height: 50rem;
+    margin-top: -5rem;
+    left: 0;
+    top: 0;
+    background: rgb(246 0 185 / 40%);
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .overlay7 {
+        background: none !important;
+    }
+}
+
+.overlay7 {
+    transition: all .6s linear;
+}
+
+/* Clients Section */
+
+.Text_Title10 {
+    color: rgb(247, 78, 161);
+    letter-spacing: 0.22rem;
+    font-weight: 700;
+    font-size: 0.80em;
+    transform: translate3d(0px, 165px, 0px) rotateX(0deg);
+    opacity: 1;
+}
+
+.Headings3 {
+    transform: translate3d(0px, 165px, 0px) rotateX(0deg);
+    margin-left: 1rem;
+    color: rgb(135, 135, 135);
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+/* Client Logo Section */
+
+.Brands_Logos {
+    transform: translate3d(0px, 220px, 0px) rotateX(0deg);
+    margin-left: 11rem;
+    width: 1000px;
+}
+
+.card {
+    /* background-color: dodgerblue; */
+    color: white;
+    padding: 1rem;
+    /* height: 4rem; */
+    border: none !important;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 0rem;
+}
+
+@media (min-width: 600px) {
+    .cards {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0px 70px;
+        margin-left: -8rem;
+    }
+}
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    #Im1 {
+        margin-top: 1rem;
+    }
+    #Im2 {
+        margin: 2px 31px;
+    }
+    #Im3 {
+        margin-top: 10px;
+    }
+    #Im4 {
+        margin-top: 10px;
+    }
+    #Im5 {
+        margin-top: 10px;
+    }
+    #Im6 {
+        margin-top: 10px;
+    }
+    #Im7 {
+        margin: 0px 30px;
+    }
+    #Im8 {
+        margin-top: 10px;
+    }
+    #Im9 {
+        margin-top: 0px;
+    }
+    #Im10 {
+        margin-top: 15px;
+    }
+    #Im13 {
+        margin: 0px 55px;
+    }
+    #Im14 {
+        margin-top: 10px;
+    }
+    #Im15 {
+        margin-top: 1.45rem;
+    }
+    #Im16 {
+        margin-top: 1.12rem;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #Im0 {
+        margin: 0px 325px;
+        margin-left: -4rem;
+    }
+    #Im1 {
+        margin: 9px 530px;
+        margin-left: -21rem;
+    }
+    #Im2 {
+        margin: -8px 827px;
+        margin-left: -34rem;
+    }
+    #Im3 {
+        margin: 0px 300px;
+        margin-left: -4rem;
+    }
+    #Im4 {
+        margin: 0px 529px;
+        margin-left: -19rem;
+    }
+    #Im5 {
+        margin: -8px 795px;
+        margin-left: -34rem;
+    }
+    #Im6 {
+        margin: 0px 300px;
+        margin-left: -4rem;
+    }
+    #Im7 {
+        margin: 9px 565px;
+        margin-left: -19rem;
+    }
+    #Im8 {
+        margin: -8px 775px;
+        margin-left: -36rem;
+    }
+    #Im9 {
+        margin: 0px 300px;
+        margin-left: -4rem;
+    }
+    #Im10 {
+        margin: 9px 500px;
+        margin-left: -19rem;
+    }
+    #Im11 {
+        margin: 5px 792px;
+        margin-left: -34rem;
+    }
+    #Im12 {
+        margin: -8px 274px;
+        margin-left: -4rem;
+    }
+    #Im13 {
+        margin: -7px 575px;
+        margin-left: -17rem;
+    }
+    #Im14 {
+        margin: -7px 785px;
+        margin-left: -36rem;
+    }
+    #Im15 {
+        margin: -8px 274px;
+        margin-left: -4rem;
+    }
+    #Im16 {
+        margin: -7px 530px;
+        margin-left: -19rem;
+    }
+    #Im17 {
+        margin: -7px 782px;
+        margin-left: -34rem;
+    }
+}
+
+/* Our Latest Article */
+
+.Text_Title100 {
+    color: rgb(247, 78, 161);
+    letter-spacing: 0.22rem;
+    font-weight: 700;
+    font-size: 0.80em;
+    transform: translate3d(0px, 400px, 0px) rotateX(0deg);
+    opacity: 1;
+}
+
+.Headings100 {
+    transform: translate3d(0px, 400px, 0px) rotateX(0deg);
+    margin-left: 1rem;
+    color: rgb(135, 135, 135);
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+.Mis {
+    transform: translate3d(0px, 450px, 0px) rotateX(0deg);
+    width: 100%;
+    margin: auto;
+    color: black;
+}
+
+.card-img-top {
+    width: 400px;
+    height: 20rem;
+    margin: -16px;
+    margin-left: -3rem;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .card-img-top {
+        width: 385px;
+    }
+}
+
+
+.image-wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 0;
+}
+
+img {
+    transition: transform 0.5s ease-in-out;
+}
+
+.image-wrapper:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#Hi:hover {
+    background-color: rgb(247, 78, 161);
+    transition: .8s ease-in-out;
+    cursor: pointer;
+}
+
+#Hi:hover .s {
+    color: black;
+    transition: .4s ease-in-out;
+}
+
+#Hi:hover .s1 {
+    color: white !important;
+    transition: .4s ease-in-out;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .Mis {
+        margin-left: -1rem !important;
+    }
+}
+
+.Btns11 {
+    text-align: center;
+}
+
+.Btn11 {
+    transform: translate3d(0px, 500px, 0px) rotateX(0deg);
+    background-color: transparent;
+    border: 0.1rem solid rgb(247, 78, 161);
+    padding: 1rem 2rem;
+    color: rgb(247, 78, 161);
+    font-size: 0.77rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-radius: 3rem;
+    text-align: center;
+    transition: 0.25s ease 0s;
+    margin-left: 1.10rem;
+}
+
+.Btn11:hover {
+    background-color: rgb(247, 78, 161);
+    color: white;
+}
+
+/* Trick: */
+
+body {
+    position: relative;
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 100px;
+    /* Set same as footer's height */
+}
+
+/* footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    transform: translatey(700px);
+    font-family: 'Noto Sans JP', sans-serif;
+} */
+
+footer {
+    /* position: fixed; */
+    width: 100%;
+    /* Height of the footer*/
+    height: 40rem;
+    margin-top: 40rem;
+    margin-bottom: -6rem;
+}
+
+footer .se:hover {
+    color: rgb(247, 78, 161);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.Social_Icons .border:hover {
+    color: rgb(247, 78, 161);
+    transition: .5s ease-out;
+    cursor: pointer;
+}
+
+.Hov:hover {
+    transition: .5s ease;
+    cursor: pointer;
+    color: rgb(247, 78, 161);
+}
+
+.Gmail h2:hover {
+    color: rgb(247, 78, 161);
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.btns101 {
+    /* transform: translate3d(0px, 500px, 0px) rotateX(0deg); */
+    background-color: transparent;
+    border: 0.1rem solid rgb(247, 78, 161);
+    padding: 1rem 2rem;
+    color: rgb(247, 78, 161);
+    font-size: 0.77rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-radius: 3rem;
+    text-align: center;
+    transition: 0.25s ease 0s;
+    /* margin-left: 1.10rem; */
+    background-color: rgb(247, 78, 161);
+    color: white;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #Dat1 {
+        display: none;
+    }
+    #Dat2 {
+        display: none;
+    }
+    #Dat3 {
+        display: none;
+    }
+    #Dat5 {
+        text-align: center;
+    }
+    footer {
+        margin-left: -1rem;
+        width: 400px;
+    }
+    .Title105 {
+        width: 100%;
+        margin: auto;
+    }
+    #Dat6 {
+        flex-direction: column;
+    }
+    .Foots_Logo {
+        display: none;
+    }
+    .Footer_Logos {
+        text-align: center;
+    }
+    #I7 {
+        width: 35%;
+    }
+    #I8 {
+        width: 35%;
+    }
+    #I9 {
+        width: 35%;
+    }
+    #I10 {
+        width: 35%;
+    }
+}
