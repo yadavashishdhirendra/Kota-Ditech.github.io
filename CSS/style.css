@@ -118,6 +118,19 @@ html, body {
     display: inline-block;
 }
 
+
+/* Blur Kota */
+
+.blur img {
+    transition: 1s ease;
+}
+
+.blur img:hover {
+    filter: blur(8px);
+    transition: 1s ease;
+}
+
+
 /* Button Styling */
 
 .Btn {
