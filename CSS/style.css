@@ -10,7 +10,7 @@ html, body {
 
 .Toggle-Icon {
     color: rgb(135, 135, 135) !important;
-/*     background-color: white !important; */
+    background-color: transparent !important;
     border: none !important;
     font-size: 30px !important;
 }
