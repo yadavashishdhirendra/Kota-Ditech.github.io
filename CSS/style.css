@@ -10,13 +10,13 @@ html, body {
 
 .Toggle-Icon {
     color: rgb(135, 135, 135) !important;
-    background-color: white !important;
+/*     background-color: white !important; */
     border: none !important;
     font-size: 30px !important;
 }
 
 .Logo_Menu {
-    background-color: #ffffff;
+/*     background-color: #ffffff; */
     margin: 0em 1em;
     transition: all 0.3s ease-in-out;
 }
