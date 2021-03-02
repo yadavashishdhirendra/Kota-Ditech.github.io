@@ -32,9 +32,33 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>DiTech Process Solution Pvt. Ltd</title>
+     <style>
+        #loader {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            z-index: 1;
+            overflow: visible;
+            background: url('./Gif/9Yards\ Intro\ Website\ Video_low.gif') no-repeat center center;
+            /* background-size: contain; */
+        }
+
+        /* Smartphones (portrait and landscape) ----------- */
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            #loader {
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                z-index: 1;
+                overflow: visible;
+                background-size: cover;
+            }
+        }
+    </style>
 </head>
 
 <body style="width: 100%;">
+        <div id="loader"></div>
     <!-- Header Starts Here -->
     <header>
         <nav class="navbar navbar-expand-lg sticky-top">
@@ -714,6 +738,20 @@
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();
+        </script>
+        
+           <!-- jQuery Plugin -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+
+        <!-- Preloader -->
+        <script type="text/javascript">
+            //<![CDATA[
+            $(window).on('load', function () { // makes sure the whole site is loaded 
+                $('#loader').fadeOut(); // will first fade out the loading animation 
+                $('.content').delay(2000).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+                $('body').delay(2000).css({ 'overflow': 'visible' });
+            })
+    //]]>
         </script>
 </body>
 
