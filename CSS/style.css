@@ -1,8 +1,9 @@
 html, body {
-    scroll-behavior: smooth;
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     overflow-x: hidden;
-    height: 100vh;
+    scroll-behavior: smooth;
     /* margin-bottom: 100rem; */
 }
 
